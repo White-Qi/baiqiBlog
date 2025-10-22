@@ -18,7 +18,7 @@ module.exports = {
   WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
-    'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
+    'https://cdn.jsdelivr.net/npm/live2d-widget-model-z16/assets/z16.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_PET_SWITCH_THEME:
     process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || false, // 点击宠物挂件切换博客主题
 
@@ -39,7 +39,7 @@ module.exports = {
     {
       name: 'Dream it possible',
       artist: 'HuaWei',
-      url: 'https://m801.music.126.net/20251022111454/f47c6a58d599245d0ac65c0b923bb3db/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/5054049018/ba69/7720/c55e/b0ac7fc142fe47cae682dc6ab00116ff.flac?vuutv=gnk8aeR/ZwU/ogxdurnxwJcABzP4TIZjcLXBBiSODReMWd/HYvRhdj4iSxObmv9ZVmE6OaREI15DGtTnyXxP2SaZ7lyRuwWfNcPDj4JTk48=',
+      url: 'https://music.163.com/song/media/outer/url?id=1499246021.mp3',
       cover:
         'https://youke1.picui.cn/s1/2025/10/22/68f84761313ce.png'
     }
