@@ -42,6 +42,13 @@ module.exports = {
       url: 'https://music.163.com/song/media/outer/url?id=1499246021.mp3',
       cover:
         'https://youke1.picui.cn/s1/2025/10/22/68f84761313ce.png'
+    },
+    {
+      name: 'Love is Love',
+      artist: 'HuaWei',
+      url: 'https://music.163.com/song/media/outer/url?id=2003145214.mp3',
+      cover:
+        'https://youke1.picui.cn/s1/2025/10/23/68fa260b1dfce.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
